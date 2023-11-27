@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    flex-direction: column;
+}
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 5px;
+  }
+
+  .card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .center-cards{
+    max-width: 50%;
+    align-self: center;
+  }
+
+  .teams-selected-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
